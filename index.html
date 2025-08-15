@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anubhav Koner – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+  <!-- Mobile Menu Overlay -->
+<div id="menu-overlay"></div>
+
+
+  <!-- Welcome Animation -->
+  <div class="welcome-screen">
+    <h1 class="welcome-text">Welcome to My Portfolio</h1>
+  </div>
+  <div class="welcome-caption hidden">
+    <p class="caption-text">Hello, I am Anubhav Koner</p>
+    <a class="resume-link" href="resume.pdf" target="_blank">RESUME</a>
+  </div>
+
+
+  <!-- Sidebar Navigation -->
+   <!-- Mobile Menu Toggle -->
+<div class="menu-toggle" id="menu-toggle">
+  <i class="fas fa-bars"></i>
+</div>
+
+  <nav id="sidebar">
+    <ul>
+      <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+      <li><a href="#skills"><i class="fas fa-code"></i>Skills</a></li>
+      <li><a href="#about"><i class="fas fa-id-badge"></i>About</a></li>
+      <li><a href="#education"><i class="fas fa-graduation-cap"></i>Education</a></li>
+      <li><a href="#projects"><i class = "fas fa-laptop-code"></i>Projects</a></li>
+      <li><a href="#contact"><i class = "fas fa-envelope"></i>Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home">
+      <div class="hero-content" data-aos="fade-up">
+        <h1>Anubhav Koner</h1>
+        <h2>I’m a <span id="typing"></span><span class="cursor">|</span></h2>
+        <img id="profile-pic" src="anupp_1.JPG" alt="Anubhav Koner"/>
+      </div>
+    </section>
+
+
+
+    <section id="about" data-aos="fade-right">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="laptop.jpg" alt="Coding Setup" />
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m currently a final-year Electronics and Communication Engineering student at Kalyani Government Engineering College (KGEC), with a strong academic record (SGPA above 9.2 every semester) and a clear focus on building a career in the VLSI industry.I’ve developed hands-on skills in Verilog, MATLAB, and EDA Playground, and have created several projects.
+      </p>
+      <p>
+        Beyond academics and hardware design , I enjoy software and web development. I’ve built small games like Tic Tac Toe and Stone Paper Scissors, and most recently, this personal portfolio website you're viewing right now
+      </p>
+      <p>
+        In my third year, I qualified the GATE exam, and I’m now preparing more extensively to pursue opportunities in higher studies or core electronics roles.
+      </p>
+      <p>
+        I’m always eager to learn, build, and contribute—whether it’s designing efficient digital circuits or experimenting with creative software projects.
+
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="education" data-aos="fade-up">
+  <h2>Education</h2>
+  <div class="education-container">
+    <div class="education-box">
+      <h3>B.Tech in Electronics and Communication Engineering</h3>
+      <p><strong>College:</strong> Kalyani Government Engineering College</p>
+      <p><strong>Year:</strong> 2022 - 2026</p>
+      <p><strong>CGPA:</strong> 9.2 </p>
+      <p>Pursuing this course with a strong attention in electronics field and robotics.</p>
+    </div>
+
+    <div class="education-box">
+      <h3>Higher Secondary Examination</h3>
+      <p><strong>School:</strong> Bardhaman Bidyarthi Bhaban High School</p>
+      <p><strong>Year:</strong> 2020 - 2022</p>
+      <p><strong>Percentage:</strong> 97.6% </p>
+      <p></p>
+    </div>
+  </div>
+</section>
+
+    <!-- Skills-->
+    <section id="skills" data-aos="fade-left">
+      <h2>Skills</h2>
+      <div class="skill-bar"><label>JAVA</label>
+      <div class="bar"><div class="java" style="--percentage:95%">95%</div></div></div>
+       <div class="skill-bar"><label>C++<label>
+<div class="bar"><div class="cpp" style="--percentage:80%">80%</div></div></div>
+ <div class="skill-bar"><label>MATLAB</label>
+<div class="bar"><div class="matlab" style="--percentage:85%">85%</div></div></div>
+ <div class="skill-bar"><label>VERILOG</label>
+<div class="bar"><div class="verilog" style="--percentage:70%">70%</div></div></div>
+ <div class="skill-bar"><label>HTML</label>
+<div class="bar"><div class="html" style="--percentage:90%">90%</div></div></div>
+ <div class="skill-bar"><label>CSS</label>
+<div class="bar"><div class="css" style="--percentage:85%">85%</div></div></div>
+ <div class="skill-bar"><label>JAVASCRIPT</label>
+<div class="bar"><div class="javascript" style="--percentage:80%">80%</div></div></div>
+ <div class="skill-bar"><label>REACT</label>
+<div class="bar"><div class="react" style="--percentage:75%">75%</div></div></div>
+ <div class="skill-bar"><label>ANALOG CIRCUIT DESIGN</label>
+<div class="bar"><div class="analog" style="--percentage:70%">70%</div></div></div>
+ <div class="skill-bar"><label>PROBLEM SOLVING SKILL</label>
+<div class="bar"><div class="problem-solving" style="--percentage:70%">70%</div></div>
+</section>
+
+<section id="projects" data-aos="fade-up">
+  <h2>Projects</h2>
+<!-- Filter Buttons -->
+  <div class="project-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="web">Web Development</button>
+    <button class="filter-btn" data-filter="hardware">Hardware Design</button>
+    <button class="filter-btn" data-filter="ml">Machine Learning</button>
+  </div>
+ <!-- Projects Grid -->
+  <div class="projects-grid">
+  <!-- Project 1 -->
+    <div class="project-card" data-category="web">
+      <img src="Independence_day.png" alt="Project 1" />
+      <div class="project-content">
+        <h3>Independence Day Wish Generation</h3>
+        <p class="subtitle">Personal Wish Generation</p>
+        <div class="tech-stack">
+          <span>HTML 5</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="http://anu-bhav500.github.io/inp-day/" target="_blank">🔗LINK</a>
+          <a href="https://github.com/anu-bhav500/inp-day" target="_blank">💻 Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card" data-category="web">
+      <img src="Game.png" alt="Project 2" />
+      <div class="project-content">
+        <h3>Stone-Paper-Scissor Game</h3>
+        <p class="subtitle">Both Desktop & Phone Responsive</p>
+        <div class="tech-stack">
+          <span>HTML 5</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://anu-bhav500.github.io/Game/" target="_blank">🔗LINK</a>
+          <a href="https://github.com/anu-bhav500/Game" target="_blank">💻 Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card" data-category="hardware">
+      <img src="Temp_Controlled_ACLoad.jpeg" alt="Project 3" />
+      <div class="project-content">
+        <h3>Automatic AC Load Regulator</h3>
+        <p class="subtitle">Temperature Controlled Fan Speed Regulator</p>
+        <div class="tech-stack">
+          <span>Analog Circuit Design</span><span>Proteus</span><span>Circuit</span>
+        </div>
+        <div class="project-links">
+          <a href="https://drive.google.com/drive/folders/1CcidFZmvZtJ2cyPulBmmTHf_3JeQNNq4" target="_blank">🔗 Link</a>
+          <a href="https://drive.google.com/drive/folders/1CcidFZmvZtJ2cyPulBmmTHf_3JeQNNq4" target="_blank">💻 Report</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card" data-category="hardware">
+      <img src="RFID_Doorlock.jpeg" alt="Project 4" />
+      <div class="project-content">
+        <h3>RFID Based Smart Door Lock System</h3>
+        <p class="subtitle">Secure Access Control Using RFID and Arduino</p>
+        <div class="tech-stack">
+          <span>Arduino Uno</span><span>RFID</span><span>IOT</span>
+        </div>
+        <div class="project-links">
+          <a href="https://drive.google.com/drive/folders/1MEkYm6GH-nHKFkFR4yLss0O9EwZTEPyY" target="_blank">🔗 Link</a>
+          <a href="https://drive.google.com/drive/folders/1MEkYm6GH-nHKFkFR4yLss0O9EwZTEPyY" target="_blank">💻 Report</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card" data-category="ml">
+      <img src="AI_Agent.jpeg" alt="Project 5" />
+      <div class="project-content">
+        <h3>AI Multi-Agent System</h3>
+        <p class="subtitle">Connecting Talent, Guiding Careers, Driving Innovation</p>
+        <div class="tech-stack">
+          <span>Python</span><span>Gemini Model</span><span>APIs</span>
+        </div>
+        <div class="project-links">
+          <a href="https://drive.google.com/drive/folders/1e1RHMTTpsGFVt6DCepUtX1-Rb4r0vQlu" target="_blank">🔗LINK</a>
+          <a href="https://drive.google.com/drive/folders/1e1RHMTTpsGFVt6DCepUtX1-Rb4r0vQlu" target="_blank">💻 Report</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 6 -->
+    <div class="project-card" data-category="ml">
+      <img src="Coming_soon.png" alt="Project 6" />
+      <div class="project-content">
+        <h3>Diabetes Prediction using Machine Learning</h3>
+        <p class="subtitle">Predicts Diabetes Early</p>
+        <div class="tech-stack">
+          <span>Python</span><span>ML</span><span>SVM Model</span><span>Matplotlib</span><span>Seaborn</span>
+        </div>
+        <div class="project-links">
+          <a href="#" target="_blank">🔗LINK</a>
+          <a href="$" target="_blank">💻 Source Code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Filtering Script -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".filter-btn");
+  const cards = document.querySelectorAll(".project-card");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      buttons.forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      const filterValue = button.getAttribute("data-filter");
+
+      cards.forEach(card => {
+        if (filterValue === "all" || card.getAttribute("data-category") === filterValue) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+  });
+});
+</script>
+
+
+    <section id="contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+  <div class="contact-wrapper">
+
+    <!-- Left Panel -->
+    <div class="contact-info">
+      <p>I am always open to new opportunities and collaborations. Feel free to reach out!</p>
+      <div class="info-item">
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:anubhavkoner910@gmail.com">anubhavkoner910@gmail.com</a>
+      </div>
+      <div class="info-item">
+        <i class="fa fa-phone"></i>
+        <a href="tel:+919123674970">+919123674970 </a>
+      </div>
+      <div class="info-item">
+        <i class="fa fa-map-marker"></i>
+        <span>Kalyani, West Bengal, India</span>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29480.723372093126!2d88.4383454643134!3d22.978747649636697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027549ae9b82f5%3A0x339d69cc91e167ac!2sKalyani%20Government%20Engineering%20College!5e0!3m2!1sen!2sin!4v1693737782617!5m2!1sen!2sin"
+          width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+     <div class="contact-right">
+    <form name="submit-to-google-sheet">
+      <input type="text" name="Name" placeholder="your name" required>
+      <input type="email" name="Email" placeholder="your Email" required autocomplete="off">
+      <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <span id="msg"></span>
+  </div>
+</section>
+</main>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="social-icons">
+        <a href="https://github.com/anu-bhav500" target="_blank">
+          <i class="fab fa-github"></i> GitHub </a>
+        <a href="https://www.linkedin.com/in/anubhav-koner?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn </a>
+          <a href="https://www.instagram.com/anubhav_koner/" target="_blank">
+          <i class="fab fa-instagram"></i> Instagram </a>
+          <a href="https://x.com/AnubhavKon99791" target="_blank">
+          <i class="fab fa-twitter"></i> Twitter </a>
+      </div>
+
+      <p>© 2025 Anubhav Koner. All rights reserved. Made with ❤</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="script.js"></script>
+ 
+
+<script>
+  const scriptURL ='https://script.google.com/macros/s/AKfycbw8H4Jl2tTKe5UzmWNMwtmtYMaZFpBV5kCoYgjPq-6ORHuN-S64HBFTojwHusWVZL1k/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Messge sent succesfully"
+        setTimeout(function(){
+         msg.innerHTML =""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const sidebar = document.getElementById("sidebar");
+  const overlay = document.getElementById("menu-overlay");
+
+  // Toggle menu
+  menuToggle.addEventListener("click", () => {
+    sidebar.classList.toggle("show");
+    overlay.classList.toggle("show");
+  });
+
+  // Close menu when overlay is clicked
+  overlay.addEventListener("click", () => {
+    sidebar.classList.remove("show");
+    overlay.classList.remove("show");
+  });
+
+  // Close menu when clicking a link (mobile)
+  document.querySelectorAll("#sidebar a").forEach(link => {
+    link.addEventListener("click", () => {
+      sidebar.classList.remove("show");
+      overlay.classList.remove("show");
+    });
+  });
+</script>
+
+
+
+</body>
+</html>
